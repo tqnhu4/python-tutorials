@@ -37,6 +37,7 @@ print(type(age))
 print(type(height))
 print(type(is_student))
 
+```
 ---
 
 ## 📅 Day 2: Operators and Conditional Statements

@@ -2,7 +2,7 @@
 
 This roadmap focuses on practical application, building a small project by the end of the week.
 
-## Day 1: Introduction to Flask & Setting Up
+## 📅 Day 1: Introduction to Flask & Setting Up
 ### Understanding Web Concepts:
 - Briefly review how the web works (client-server model, HTTP methods like GET/POST).
 - What is a web framework? Why Flask?
@@ -32,7 +32,7 @@ if __name__ == '__main__':
 ### Practice:
 - Create a few more basic routes with different return strings.
 
-## Day 2: Routing, Templates, and Static Files
+## 📅 Day 2: Routing, Templates, and Static Files
 - **URL Routing & Variables:**
   - Learn how to define routes with dynamic parts: @app.route('/user/<username>')
   - Pass variables from the URL to your functions.
@@ -69,7 +69,7 @@ def greet(name):
   - Create a simple "about" page using a template.
   - Add some basic CSS to your greeting.html.
 
-## Day 3: Forms and Request Handling
+## 📅 Day 3: Forms and Request Handling
 - **HTML Forms:**
   - Understand <form> tags, method (GET/POST), and action.
 - **Handling Form Submissions:**
@@ -98,7 +98,7 @@ def login():
 - **Practice:**
   - Create a simple contact form that takes name and email. Display the submitted data on a new page.  
 
-## Day 4: Database Integration (SQLAlchemy ORM)
+## 📅 Day 4: Database Integration (SQLAlchemy ORM)
 - **Introduction to Databases & ORMs:**
   - Why use a database? What is an ORM?
 - **Flask-SQLAlchemy:**
@@ -133,7 +133,7 @@ class User(db.Model):
   - Create a route to add new todos.
   - Create a route to list all todos.
 
-## Day 5: Building Out the Todo App (CRUD Operations)
+## 📅 Day 5: Building Out the Todo App (CRUD Operations)
 - **Displaying Todos:**
   - Fetch all todos from the database and pass them to a template.
   - Use Jinja2 loops to display each todo item.
@@ -149,7 +149,7 @@ class User(db.Model):
 - **Practice:**
   - Complete the full CRUD functionality for your Todo application.  
 
-## Day 6: Blueprints and Project Structure
+## 📅 Day 6: Blueprints and Project Structure
 - **Why Blueprints?**
   - Organizing larger Flask applications.
   - Modularity and reusability.
@@ -169,7 +169,7 @@ class User(db.Model):
   - Refactor your Todo application to use a blueprint for its routes.
   - Organize your project into a more structured layout. 
 
-## Day 7: Deployment & Next Steps
+## 📅 Day 7: Deployment & Next Steps
 - **Basic Deployment Concepts:**
   - Difference between development server and production server.
   - Brief overview of WSGI servers (Gunicorn, uWSGI).

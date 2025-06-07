@@ -6,7 +6,7 @@ Start by setting up your environment and understanding the core mechanics of a w
 
 - Python Essentials:
   - Async/Await: FastAPI is built on asyncio. Understand how async functions and await calls work.
-  ```python
+```python
   # Example: Simple async function
 import asyncio
 
